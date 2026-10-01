@@ -1,0 +1,23 @@
+class PRODUTO {
+nome: string;
+    preco: number;
+    estoque: number;
+
+    constructor(nome: string, preco: number, estoque: number) {
+        this.nome = nome;
+        this.preco = preco;
+        this.estoque = estoque;
+    }
+
+}
+
+const prouto1  = new PRODUTO("biscoito", 7, 42 );
+const prouto2 = new PRODUTO("abóbora", 4, 35 );
+
+console.log(prouto1.nome);
+console.log(prouto1.preco);
+console.log(prouto1.estoque);
+
+console.log(prouto2.nome);
+console.log(prouto2.preco);
+console.log(prouto2.estoque);
