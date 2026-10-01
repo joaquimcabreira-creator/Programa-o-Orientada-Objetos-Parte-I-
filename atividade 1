@@ -1,0 +1,14 @@
+lass pessoa {
+
+    nome: string;
+    idade: number;
+
+    constructor(nome: string, idade: number ) {
+        this.nome = nome;
+        this.idade = idade;
+    }
+
+}
+const aluno = new pessoa("joaquim", 15);
+console.log(aluno.nome);
+console.log(aluno.idade);
